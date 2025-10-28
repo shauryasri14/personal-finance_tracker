@@ -42,7 +42,7 @@ int display1()
     }
 }
 int graph()
-{   printf("---------------------Graph--------------------\n");
+{   printf("---------------------Graph---------------------------------\n");
     for(int i=0;i<n;i++)
     {
         printf("%s\t",category[i]);
