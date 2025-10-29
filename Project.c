@@ -21,7 +21,7 @@ int expense()
         scanf("%s", category[i]);
         printf("Enter the amount spent in %s: ", category[i]);
         scanf("%d", &expense1[i]);
-        total_expense += expense1[i];
+        total_expense=total_expense + expense1[i];
     }
     return total_expense;
     
@@ -30,7 +30,13 @@ int display()
 {   printf("--------------------Financial Tracker--------------------\n");
     printf("Total Income: %d\n", income1);
     printf("Total Expense: %d\n", total_expense);
+    if(income1-total_expense>=0)
+    {
     printf("Remaining Balance: %d\n", income1 - total_expense);
+    }
+    else{
+        printf("You are in loss %d\n", income1 - total_expense);
+    }
 }
 int display1()
 {    printf("--------------------Financial Summary--------------------\n");
@@ -42,7 +48,7 @@ int display1()
     }
 }
 int graph()
-{   printf("---------------------Graph---------------------------------\n");
+{   printf("---------------------Graph-------------------------------\n");
     for(int i=0;i<n;i++)
     {
         printf("%s\t",category[i]);
