@@ -8,19 +8,19 @@ Rohit Kalra (Enrollment No: 2501200084)
 Course: B.Tech
 Subject: C Programming
 _________________________________________________________________________
-1. Description of Project
+## 1. Description of Project
 The Personal Finance Tracker is a C-based console program designed to help users keep track of their income and expenses using simple input and calculations. The project demonstrates how arrays, pointers, and functions can be used together to handle and process financial data efficiently.
 Through a simple menu-driven interface, the user can:
 ●	Add income and expense records
 ●	View total income, total expenses, and remaining balance
 ●	Display categorized expenses using strings (e.g., “Food”, “Rent”, “Transport”)
-2. Objectives
+## 2. Objectives
 1.	To track and categorize income and expenses efficiently.
 2.	To calculate savings and generate financial summaries.
 3.	To learn and implement concepts of C programming including arrays, pointers, functions, and file handling.
 4.	To develop an efficient management system that helps hostel and PG students handle daily activities such as room allocation, fee payment, and maintenance requests digitally.
 
-3. Software Requirement Specification(SRS)
+## 3. Software Requirement Specification(SRS)
 a. Functional Requirements
 ●	The program should allow the user to input multiple income and expense entries.
 ●	It should display the total income, expenses, and savings balance.
@@ -33,7 +33,7 @@ c. Software and Hardware Requirements
 ●	Language: C Programming
 ●	Compiler: GCC
 ●	Operating System: Windows or Linux or macOS
-4. Explanation of Elements Used
+## 4. Explanation of Elements Used
 a. Arrays (1D, 2D):
 Arrays will store multiple income and expense values.
  For example:
@@ -56,11 +56,11 @@ d. Control Flow & Loops:
 
 
 
-5. Control Flow
+## 5. Control Flow
  
 
 
-8. References
+## 8. References
 - Let Us C by Yashavant Kanetkar
 - Online tutorials and documentation on C programming
 - Sample projects for personal finance management
