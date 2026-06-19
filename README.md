@@ -1,12 +1,5 @@
 
 # Personal Finance Tracker
-
-Course: 24B15CS111 – Software Development Fundamentals Lab-1
-
-Shaurya Srivastava (Enrollment No: 2501200086)
-Rohit Kalra (Enrollment No: 2501200084)
-Course: B.Tech
-Subject: C Programming
 _________________________________________________________________________
 ## 1. Description of Project
 The Personal Finance Tracker is a C-based console program designed to help users keep track of their income and expenses using simple input and calculations. The project demonstrates how arrays, pointers, and functions can be used together to handle and process financial data efficiently.
@@ -54,14 +47,4 @@ d. Control Flow & Loops:
 ●	if-else and switch statements are used for decision-making (menu options).
 ●	for and while loops are used for repeatedly accepting or displaying data.
 
-
-
-## 5. Control Flow
- 
-
-
-## 8. References
-- Let Us C by Yashavant Kanetkar
-- Online tutorials and documentation on C programming
-- Sample projects for personal finance management
 
